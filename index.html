@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+	<link href="./assets/css/bootstrap.css" rel="stylesheet">
+	<link href="./assets/css/doc.css" rel="stylesheet">
+	<link href="./assets/css/index.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="./assets/js/bootstrap.js"></script>
+	<script src="./assets/js/index.js"></script>
+	
+	<title>rails Generator</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="navbar navbar-fluid-top navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="/">rails Generator</a>
+					<div class="container-fluid nav-collapse">
+						<ul class="nav">
+							<li><a href="http://www.absolute-keitarou.net/blog/">Blog</a></li>
+							<li><a href="/path2">Github</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="container">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span12">
+
+						<div class="content">
+							
+							<div>
+								<p class="alert alert-info">Hollo rails Generator!!</p>
+							</div>
+
+							<div id="list_area">
+								<div class="control-group">
+									<div class="controls">
+										<input type="radio" name="list" class="list" value="scaffold" checked="" readonly="" />  Scaffold
+										<input type="radio" name="list" class="list" value="model"/>  Model
+										<input type="radio" name="list" class="list" value="resource"/>  Resource
+									</div>
+								</div>
+							</div>
+
+							<div id="name_area">
+								<div class="control-group">
+									<div class="controls">
+										<input type="text" name="name" class="span3 name" placeholder="Name">
+									</div>
+								</div>
+							</div>
+							
+							<div id="table_area">
+								<table id="table" border="1">
+									<thead>
+										<tr>
+											<th width="10%"></th>
+											<th width="40%">Type</th>
+											<th width="45%">Name</th>
+											<th width="5%"></th>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+							</div>
+							
+							<div id="add_area">
+								<select name="add" class="add">
+									<option value="string">   string</option>
+									<option value="text">     text</option>
+									<option value="boolean">  boolean</option>
+									<option value="integer">  integer</option>
+									<option value="float">    float</option>
+									<option value="decimal">  decimal</option>
+									<option value="date">     date</option>
+									<option value="time">     time</option>
+									<option value="datetime"> datetime</option>
+									<option value="timestamp">timestamp</option>
+									<option value="binary">  binary</option>
+								</select>
+								<input type="text" name="text" id="text" value="">
+								<button class="add_btn btn">Add</button>
+							</div>
+							
+							<div id="generate">
+								<div id="alert" class="span12 alert alert-error" style="display: none;"></div>
+								<textarea class="span12" rows="6" name="textarea" class="textarea"></textarea>
+								<div class="btns">
+									<button class="generate btn btn-primary">GENERATE</button>
+									<button class="csv btn">CSV</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--/row-->
+			</div>
+		</div> <!-- /container -->
+		
+		<footer class="footer">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</footer>
+	</div>
+
+</body>
+</html>

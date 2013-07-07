@@ -1,0 +1,21 @@
+body{
+  /*background-color: red;*/
+}
+
+.navbar{
+  min-width:1024px;
+  border-top: 2px solid #5663ff;
+}
+#container{
+  width:1024px;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+footer{
+  background-color: #f8f8f8;
+  min-width:1024px;
+  border-top: 2px solid #5663ff;
+}

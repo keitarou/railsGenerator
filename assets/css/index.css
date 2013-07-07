@@ -1,0 +1,44 @@
+.content{
+	margin-top: 12px;
+}
+
+#list_area{
+	font-size: 20px;
+	margin-bottom: 18px;
+}
+
+#name_area{
+
+}
+
+#table{
+	width: 100%;
+	margin-bottom: 18px;
+}
+#table tr th{
+	text-align: center;
+	color: #5663ff;
+	height:24px;
+	line-height: 24px;
+	font-size: 18px;
+}
+#table tr td.ext{
+	text-align: center;
+}
+.type{
+	padding: 0px 8px 0px 8px;
+	font-size: 18px;
+}
+.coulmn{
+	margin-top: 7px;
+}
+
+#add_area{
+	text-align: right;
+}
+.add_btn{
+	margin-top: -10px;
+}
+.btns{
+	text-align: center;
+}
